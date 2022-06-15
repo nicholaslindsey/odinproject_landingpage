@@ -1,0 +1,38 @@
+* {
+    font-family: roboto;
+}
+
+body {
+    color: white;
+    background-color: #1F2937;
+    margin: 0 240px;
+}
+
+/*1*/
+.header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: end;
+    margin: 10px 0;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.spacer {
+    flex: auto;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+    color: lightgrey;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*2*/
