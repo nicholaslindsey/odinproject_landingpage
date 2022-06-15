@@ -128,7 +128,7 @@ body {
     align-items: center;
 }
 
-.caption {
+.card .caption {
     width: 150px;
     font-weight: 400;
     text-align: center;
@@ -158,4 +158,48 @@ body {
     display: flex;
     font-weight: 700;
     font-size: 24px;
+}
+
+/*5*/
+.bottom {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 240px;
+}
+
+.calltoaction {
+    background-color:#3882F6;
+    padding: 50px 75px;
+    margin: 100px 0;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftbox {
+    gap: 10px;
+}
+
+.bottom .title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bottom .caption {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bottombutton {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 35px;
 }
